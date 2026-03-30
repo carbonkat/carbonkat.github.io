@@ -20,7 +20,7 @@ Supervisors: Prof. Robin Cohen & Prof. Lukasz Golab
 
 ## Projects
 
-**VELCRO (Master’s Thesis Project)** | Python, Pytorch Lightning
+**VELCRO (Master’s Thesis Project)** \| Python, Pytorch Lightning
 
 * Designed a deep learning image-text model for semantic reasoning over detected medical image artifacts
 * Developed a custom multi-task loss function for visual artifact localization and text description alignment
@@ -28,13 +28,13 @@ Supervisors: Prof. Robin Cohen & Prof. Lukasz Golab
 multi-node SLURM cluster
 * Achieved 12.6%+ F1 increase over baselines
 
-**RibXpert** | Python, Pytorch Lightning
+**RibXpert** \| Python, Pytorch Lightning
 
 * Collaborated in 4-person cross-discipline team to design a rib fracture detection model for chest X-rays
 * Led vision transformer model implementation and training, achieved 97% accuracy
 * Implemented GradCAM to visualize model feature maps and attention weights for post-inference explainability
   
-**HEX: Hierarchical Explainable AI Engine** | Python, React
+**HEX: Hierarchical Explainable AI Engine** \| Python, React
 * Built an interactive web app with React and FastAPI to visualize explanations of AI model decisions at multiple
 conceptual levels to facilitate explanation summarization and expansion
 * Leveraged GPT-3.5/4 to generate concept hierarchies and cluster structured data features under concepts
@@ -53,13 +53,13 @@ real-time explanation exploration along the hierarchical axis
 ## Posters and Presentations
 
 ## Awards and Involvement
-**Three Minute Thesis Competition First Place** | Responsible AI Special Day, KDD 2025 Aug. 2025
+**Three Minute Thesis Competition First Place** \| Responsible AI Special Day, KDD 2025 Aug. 2025
 
-**Student Poster Competition First Place** | Responsible AI Special Day, KDD 2025 Aug. 2025
+**Student Poster Competition First Place** \| Responsible AI Special Day, KDD 2025 Aug. 2025
 
-**Graduate Student Member** | NSERC Responsible AI Program Sep. 2023– Sep. 2025
+**Graduate Student Member** \| NSERC Responsible AI Program Sep. 2023– Sep. 2025
 
-**Dean’s Honor List** | Rensselaer Polytechnic Institute All Semesters, 2019– 2023
+**Dean’s Honor List** \| Rensselaer Polytechnic Institute All Semesters, 2019– 2023
 
 ## Research Experience
 **Graduate Researcher** Sep. 2023– Sep. 2025
