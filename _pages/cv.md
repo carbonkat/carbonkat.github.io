@@ -53,7 +53,64 @@ real-time explanation exploration along the hierarchical axis
 ## Posters and Presentations
 
 ## Awards and Involvement
+**Three Minute Thesis Competition First Place** | Responsible AI Special Day, KDD 2025 Aug. 2025
+
+**Student Poster Competition First Place** | Responsible AI Special Day, KDD 2025 Aug. 2025
+
+**Graduate Student Member** | NSERC Responsible AI Program Sep. 2023– Sep. 2025
+
+**Dean’s Honor List** | Rensselaer Polytechnic Institute All Semesters, 2019– 2023
 
 ## Research Experience
+**Graduate Researcher** Sep. 2023– Sep. 2025
+
+*AI For Social Good Lab, University of Waterloo* *Waterloo, ON, CA*
+
+* Conducted experiments and data analyses in multimodal learning and model explainability to further ongoing
+research initiatives in medical AI applications
+* Presented lab research to undergraduate and graduate students as a guest speaker in courses and external program
+seminars, translating complex AI methods into accessible insights for audiences with varying technical backgrounds
+
+**Edison Intern** Jun. 2023– Aug. 2023
+
+*General Electric (GE Aerospace Research)* *Niskayuna, NY, USA*
+
+* Executed applied research in a corporate R&D setting, with a strong focus on independent problem-solving
+* Developed an in-house computer vision tool with Python and OpenCV for in situ monitoring of additive
+manufacturing machine performance to ensure quality standards compliance
+* Worked with machine technicians to collect downbeam camera video data for time-series analysis
+
+**Undergraduate Research Assistant** Sep. 2021– May 2022
+
+*Institute for Data Exploration and Applications (IDEA), Rensselaer Polytechnic Institute* *Troy, NY, USA*
+
+* Finetuned BERT NLP transformer models for unstructured clinical note information extraction
+* Initiated experimentation with rule-based and deep learning-based clinical abbreviation normalization and data
+cleaning pipelines using the UMLS medical ontology
 
 ## Teaching Experience
+**Graduate Teaching Assistant**
+University of Waterloo
+
+CS 492/692: Social Implications of Computing
+
+CS 245: Logic and Computation
+
+CS 115: Introduction to Computer Science
+
+**Graduate Instructional Assistant**
+University of Waterloo
+
+CS 115: Introduction to Computer Science
+
+**Undergraduate Teaching Assistant**
+Rensselaer Polytechnic Institute
+
+CS 1100: Computer Science I
+
+Sep. 2023– Aug. 2025
+Waterloo, ON, CA
+Jan. 2024– May 2024
+Waterloo, ON, CA
+Sep. 2022– Dec. 2022
+Troy, NY, US
