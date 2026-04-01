@@ -1,0 +1,18 @@
+- selector: slider
+  bullets: true
+  captions: true
+  images:
+    - src: /img/1.jpg
+      title: test!
+      alt: This slider has caption titles
+    - data-src: /img/2.jpg
+      title: test2
+      alt: Instead of the default slide effect
+    - data-src: /img/3.jpg
+      data-src-2x: /img/3@2x.jpg
+    - src: /img/4.jpg
+      title: test4
+      alt: Also, this image has no link
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
