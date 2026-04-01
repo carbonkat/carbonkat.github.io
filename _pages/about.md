@@ -2,6 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+
+carousels:
+  - images: 
+    - image: ../images/XAI.png
+    - image: ../images/XAI.png
+    - image: ../images/XAI.png
+    - image: ../images/XAI.png
 ---
 
 ## Under Construction
