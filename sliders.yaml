@@ -2,15 +2,15 @@
   bullets: true
   captions: true
   images:
-    - src: /img/1.jpg
+    - src: images/personal_website_multimodal_img.png
       title: test!
       alt: This slider has caption titles
-    - data-src: /img/2.jpg
+    - data-src: images/personal_website_multimodal_img.png
       title: test2
       alt: Instead of the default slide effect
-    - data-src: /img/3.jpg
-      data-src-2x: /img/3@2x.jpg
-    - src: /img/4.jpg
+    - data-src: images/personal_website_multimodal_img.png
+      data-src-2x: images/personal_website_multimodal_img.png
+    - src: images/personal_website_multimodal_img.png
       title: test4
       alt: Also, this image has no link
   settings:
