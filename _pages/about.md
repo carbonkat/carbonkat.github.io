@@ -9,6 +9,7 @@ permalink: /about/
 ## Research Interests
 
 ### Multi-Modal Learning
+<img src="../images/personal_website_multimodal_img.png" width="25%">
 I am passionate about advancing translational deep learning research in the medical domain, with a particular focus on multi-modal machine learning. My work centers on designing AI models that, much like human clinicians, can synthesize information from diverse sources such as laboratory tests, medical images, patient histories, and genetic data. By developing methods that enable models to effectively integrate and interpret heterogeneous data, I aim to contribute to more holistic and personalized healthcare solutions. My interest is driven by the belief that leveraging advanced multi-modal learning techniques can lead to more comprehensive patient insights and ultimately improve clinical decision-making.
 
 ### Trustworthy AI
