@@ -26,6 +26,8 @@ My research interests also include developing explainable and trustworthy AI for
 
 ### Visual Entity Linking with Contrastive Region-of-Interest Alignment (VELCRO)
 
+{% include slider.html selector="slider" %}
+
 ### Hierarchical Explanations (HEX)
 
 ### RibXpert
