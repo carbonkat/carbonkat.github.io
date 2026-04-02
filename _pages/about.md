@@ -5,7 +5,6 @@ permalink: /about/
 
 carousels:
   - images: 
-    - image: ../images/VEL_explanation.png
     - image: ../images/velcro_concept.png
     - image: ../images/velcro_architecture.png
     - image: ../images/ex_1.png
@@ -35,7 +34,7 @@ My research interests also include developing explainable and trustworthy AI for
 
 ### Visual Entity Linking with Contrastive Region-of-Interest Alignment (VELCRO)
 
-{% include carousel.html height="60" unit="%" duration="20" number="1" %}
+{% include carousel.html height="50" unit="%" duration="20" number="1" %}
 
 ### Hierarchical Explanations (HEX)
 
