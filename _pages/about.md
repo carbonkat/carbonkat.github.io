@@ -10,6 +10,10 @@ carousels:
     - image: ../images/ex_1.png
     - image: ../images/ex_2.png
     - image: ../images/ex_3.png
+  - images: 
+    - image: ../images/hex_framework.png
+    - image: ../images/hex_factual_ex_1.pdf
+    - image: ../images/hex_cf_ex_2.pdf
 ---
 
 ## Under Construction
@@ -36,6 +40,20 @@ My research interests also include developing explainable and trustworthy AI for
 
 {% include carousel.html height="50" unit="%" duration="20" number="1" %}
 
+<div align="center">
+  
+  [Read the paper!](https://openreview.net/pdf?id=84W63lKyRG)
+  
+</div>
+
 ### Hierarchical Explanations (HEX)
+
+{% include carousel.html height="50" unit="%" duration="20" number="2" %}
+
+<div align="center">
+  
+  Publicly available paper coming soon!
+  
+</div>
 
 ### RibXpert
