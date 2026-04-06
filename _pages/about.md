@@ -42,6 +42,15 @@ My research interests also include developing explainable and trustworthy AI for
 
 > [Read the paper!](https://openreview.net/pdf?id=84W63lKyRG)
 
+The medical domain generates large amounts of imaging data every day. These images contain a wealth of knowledge about human health, but that information is only useful if extracted through successful analysis by domain experts. To keep pace with this ever-increasing flow, tools that assist users with a variety of image processing tasks, such as information retrieval and database management, are needed now more than ever. 
+
+AI-assisted image analysis is a promising solution. In specialized domains, however, these tasks are most useful when images are explicitly connected to domain knowledge, allowing AI to better understand the semantics of image content. This can be achieved through an intermediate knowledge extraction step during processing, called visual entity linking (VEL). In VEL, salient entities in images are identified and grounded in a structured knowledge base (KB). This project focused specifically on targeted visual-to-textual entity linking (targeted V2TEL) to support user-guided tasks. This accounts for the fact that not all entities in a given image may be necessary to respond to a user’s information need and thus do not need to be linked.
+
+In this project, KB entities were represented as text descriptions, making direct comparisons with the information represented in images challenging. To bridge this gap, information must be translated between modalities by condensing them into embeddings that can be projected into a shared latent space. With contrastive learning, models can be trained to learn to create and align image and text embeddings within this latent space such that semantically similar embeddings are close and semantically different ones are far apart. Once in the same space, entity linking reduces to a cosine similarity comparison between embeddings.
+
+Following previous cross-modal alignment work such as CLIP, our VEL model, VELCRO, uses a two-tower architecture consisting of two submodels, each dedicated to processing a single modality (visual input or entities). To incorporate user intent, the visual tower also includes a visual prompt to ensure that only embeddings of the desired visual mentions are produced for linking. To address context challenges, the resulting embedding highlights the user’s target entity while still capturing information from its surroundings.
+
+
 ### Hierarchical Explanations (HEX)
 
 {% include carousel.html height="50" unit="%" duration="20" number="2" %}
