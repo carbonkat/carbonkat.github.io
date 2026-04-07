@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About (Under Construction)
 permalink: /about/
 
 carousels:
@@ -15,8 +15,6 @@ carousels:
     - image: ../images/hex_factual_ex_1.png
     - image: ../images/hex_cf_ex_2.png
 ---
-
-## Under Construction
 
 ## Research Interests
 
@@ -49,6 +47,7 @@ Domain-aware AI-assisted image analysis is a promising approach–though one req
 In this project, KB entities were represented as text descriptions, making direct comparisons with the information represented in images challenging. To bridge this gap, information must be translated between modalities by condensing them into embeddings that can be projected into a shared latent space. With contrastive learning, models can be trained to create and align image and text embeddings within this latent space, so that semantically similar embeddings are close and semantically different ones are far apart. Once in the same space, entity linking reduces to a cosine similarity comparison between embeddings.
 
 Building on previous cross-modal alignment work, VELCRO uses a two-tower architecture comprising two submodels, each dedicated to processing a single modality (visual input or entities). To incorporate user intent, the visual tower also includes a visual prompt to ensure that only embeddings of the desired visual mentions are produced for linking. To address the challenge of context, the resulting embedding must highlight the user’s target entity while still capturing information from its surroundings. 
+
 VELCRO achieves this with encoder-decoder-based image segmentation. In this architecture, the encoder produces a latent representation of the image that the decoder then upscales into a segmentation mask, effectively translating an image into a mask or set of masks highlighting its component objects. Because the encoder is trained to use the entire image to emphasize information about salient objects, segmentation models naturally generate object-level embeddings that retain some awareness of surrounding image context. The visual prompt is incorporated during encoding to ensure that object embeddings are generated only in response to the user’s query, with one embedding per prompt. 
 
 Object embedding-entity alignment requires the segmenter to accurately capture the entity of interest without letting extraneous image features dominate. VELCRO achieves this with a dual-task training objective: the model generates both segmentation masks and mention embeddings, with a mask loss improving segmentation by training the model to better identify object-specific features, and a contrastive loss improving the model's ability to connect the semantics of those features to dense textual descriptions. Combining these losses allows both segmentation quality and embedding similarity to backpropagate during training, enabling the model to learn both tasks simultaneously.
@@ -60,5 +59,3 @@ Object embedding-entity alignment requires the segmenter to accurately capture t
 {% include carousel.html height="50" unit="%" duration="20" number="2" %}
 
 > Publicly available paper coming soon!
-
-### RibXpert
